@@ -1,4 +1,4 @@
-name: Opera GX Mobile Rewards Remote Server (by yours truly Photon <3)
+name: Click Here To Run
 
 on:
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
       RDP_PASS: Gubby@123
 
     steps:
-      - name: Purge gubby device (if any)
+      - name: Subscribe To Photon If This Helps!
         run: |
           try {
             $auth = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes("${{ inputs.ts_api_key }}:"))
