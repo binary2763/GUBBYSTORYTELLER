@@ -20,7 +20,7 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 370
     env:
-      RDP_USER: Gubby
+      RDP_USER: GubbySamurai
       RDP_PASS: Gubby@12345
 
     steps:
